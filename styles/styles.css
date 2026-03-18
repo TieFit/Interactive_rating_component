@@ -8,6 +8,11 @@
     flex-direction: column;
 }
 
-.thank_you_state {
-    display:none;
+.hidden {
+    display: none;
 }
+
+.thank_you_state {
+    display: none;
+}
+
