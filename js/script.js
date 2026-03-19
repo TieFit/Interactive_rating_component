@@ -3,8 +3,8 @@ let selectedRating = null;
 const ratings = document.querySelector('.ratings');
 const ratingButtons = ratings.querySelectorAll('.rating');
 const submitButton = document.querySelector('.submitButton');
-const ratingState = document.querySelector('.rating_state');
-const thankYouState = document.querySelector('.thank_you_state');
+const ratingState = document.querySelector('.ratingState');
+const thankYouState = document.querySelector('.thankYouState');
 
 ratingButtons.forEach(function(ratingButtons) {
     ratingButtons.addEventListener("click", function(event) {

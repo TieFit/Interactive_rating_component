@@ -1,13 +1,89 @@
 * {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    flex-direction: column;
 }
 
 .hidden {
     display: none;
+}
+
+
+html {
+    height: 100%;
+}
+
+body {
+    /*background-color: hsl(216, 12%, 8%);*/
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.page {
+    /*background-color: hsl(213, 19%, 18%);*/
+    
+}
+
+/******************************* RATING STATE STARTS ******************************/
+.ratingState {
+
+}
+
+.star {
+
+}
+
+.ratingState h2 {
+
+}
+
+.ratingState p {
+
+}
+
+.ratings {
+
+}
+
+.rating {
+
+}
+
+.submitButton {
+
+}
+
+/********************************* THANK YOU STATE STARTS **************************************/
+
+.thankYouState {
+
+}
+
+.thankYouImg {
+
+}
+
+#selectedRatingThanks {
+
+}
+
+.thankYouState h2 {
+
+}
+
+.thankYouState p {
+
+}
+
+/************************* ATTRIBUTION *************************/
+.attribution {
+
+}
+
+/************************* DESKTOP SECTION ************************/
+
+@media screen and (min-width: 992px) {
+    
 }

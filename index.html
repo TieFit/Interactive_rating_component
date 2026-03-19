@@ -9,36 +9,37 @@
   <script src="js/script.js" defer></script>
 </head>
 <body>
-
-  <!-- this state will be active until a rating is selected, and submit button pressed. It will be hidden when thank you state is active -->
-  <div class="rating_state">
-    <img class ="star" src="./images/icon-star.svg" alt="star icon">
-    <h2>How did we do?</h2>
-    <p>Please let us know how we did with your support request. All feedback is appreciated 
-      to help us improve our offering!
-    </p>
-    <div class="ratings">
-      <button class="rating" data-rating="1">1</button>
-      <button class="rating" data-rating="2">2</button>
-      <button class="rating" data-rating="3">3</button>
-      <button class="rating" data-rating="4">4</button>
-      <button class="rating" data-rating="5">5</button>
+  <div class="page">
+    <!-- this state will be active until a rating is selected, and submit button pressed. It will be hidden when thank you state is active -->
+    <div class="ratingState">
+      <img class ="star" src="./images/icon-star.svg" alt="star icon">
+      <h2>How did we do?</h2>
+      <p>Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+      </p>
+      <div class="ratings">
+        <button class="rating" data-rating="1">1</button>
+        <button class="rating" data-rating="2">2</button>
+        <button class="rating" data-rating="3">3</button>
+        <button class="rating" data-rating="4">4</button>
+        <button class="rating" data-rating="5">5</button>
+      </div>
+      <button class="submitButton">Submit</button>
     </div>
-    <button class="submitButton">Submit</button>
-  </div>
 
-  <!-- this state stays hidden until rating has been selected, and submit button pressed -->
-  <div class="thank_you_state hidden">
-    <img class="thank_you_img" src="images/illustration-thank-you.svg" alt="thank_you">
-    <h3 id="selectedRatingThanks"></h3>
-    <h2>Thank You!</h2>
-    <p>We appreciate you taking the time to give a rating. If you ever need more support, 
-      don't hesitate to get in touch!</p>
-  </div>
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">JJ Newell</a>.
+    <!-- this state stays hidden until rating has been selected, and submit button pressed -->
+    <div class="thankYouState hidden">
+      <img class="thankYouImg" src="images/illustration-thank-you.svg" alt="thank_you">
+      <h3 id="selectedRatingThanks"></h3>
+      <h2>Thank You!</h2>
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+        don't hesitate to get in touch!</p>
+    </div>
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">JJ Newell</a>.
+    </div>
   </div>
 </body>
 </html>
