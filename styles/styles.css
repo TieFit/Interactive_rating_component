@@ -36,6 +36,7 @@ body {
 /******************************* RATING STATE STARTS ******************************/
 .ratingState {
     margin: 0 0rem;
+    display: none; /*REMOVE THIS WHEN DONE!*/
 }
 
 .star {
@@ -118,15 +119,23 @@ body {
 /********************************* THANK YOU STATE STARTS **************************************/
 
 .thankYouState {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.thankYouImgWrapper {
+    max-width: 10rem;
 }
 
 .thankYouImg {
-
+    max-width: 100%;
+    height: auto;
 }
 
 #selectedRatingThanks {
-
+    
 }
 
 .thankYouState h2 {
