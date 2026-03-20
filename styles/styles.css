@@ -14,29 +14,42 @@ html {
 }
 
 body {
-    /*background-color: hsl(216, 12%, 8%);*/
+    background-color: hsl(216, 12%, 8%);
 
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: clamp(8px, 2vw, 32px);
 }
 
 .page {
-    /*background-color: hsl(213, 19%, 18%);*/
+    background-color: hsl(213, 19%, 18%);
+
     
+    padding: 3rem;
+    border-radius: 1.5rem;
+    width: min(100%, 420px);
 }
 
 /******************************* RATING STATE STARTS ******************************/
 .ratingState {
-
+    margin: 0 0rem;
 }
 
 .star {
+    border-radius: 50%;
+    background-color: hsl(216, 17%, 29%);
 
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ratingState h2 {
-
+    margin: 1.5rem 0 1rem 0;
 }
 
 .ratingState p {
@@ -44,15 +57,48 @@ body {
 }
 
 .ratings {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .rating {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+
+    border: 1px solid hsl(216, 12%, 8%);
+    background-color: hsl(216, 17%, 29%);
+    
+    margin-top: 1rem;
+}
+
+.rating:hover {
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(216, 12%, 8%);
+}
+
+.submitButtonSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 0 2rem 0;
 
 }
 
 .submitButton {
+    width: 20rem;
+    height: 2rem;
 
+    border-radius: 100px;
+    margin-top: 1rem;
+
+}
+
+.submitButton:hover {
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(216, 12%, 8%);
 }
 
 /********************************* THANK YOU STATE STARTS **************************************/
@@ -79,11 +125,11 @@ body {
 
 /************************* ATTRIBUTION *************************/
 .attribution {
-
+    
 }
 
 /************************* DESKTOP SECTION ************************/
 
 @media screen and (min-width: 992px) {
-    
+
 }
