@@ -6,8 +6,13 @@ const submitButton = document.querySelector('.submitButton');
 const ratingState = document.querySelector('.ratingState');
 const thankYouState = document.querySelector('.thankYouState');
 
-ratingButtons.forEach(function(ratingButtons) {
-    ratingButtons.addEventListener("click", function(event) {
+ratingButtons.forEach((btn) => {
+    btn.addEventListener("click", function(event) {
+        ratingButtons.forEach((b) => b.classList.remove('selected'));
+
+        const clicked = event.currentTarget;
+        clicked.classList.add("selected");
+        
         selectedRating = event.target.getAttribute('data-rating');
     });
 });
