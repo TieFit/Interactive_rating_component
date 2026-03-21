@@ -168,9 +168,3 @@ body {
 .thankYouState p {
     color: hsl(217, 12%, 63%);
 }
-
-/************************* DESKTOP SECTION ************************/
-
-@media screen and (min-width: 992px) {
-
-}

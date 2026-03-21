@@ -6,6 +6,7 @@ const submitButton = document.querySelector('.submitButton');
 const ratingState = document.querySelector('.ratingState');
 const thankYouState = document.querySelector('.thankYouState');
 
+// event listener for getting what rating is chosen
 ratingButtons.forEach((btn) => {
     btn.addEventListener("click", function(event) {
         ratingButtons.forEach((b) => b.classList.remove('selected'));
@@ -17,6 +18,7 @@ ratingButtons.forEach((btn) => {
     });
 });
 
+// logic for switching between states after selecting a rating
 submitButton.addEventListener("click", function() {
     if (!selectedRating) {
         alert('Please select a rating before submitting.');
