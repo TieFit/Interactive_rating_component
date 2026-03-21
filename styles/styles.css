@@ -89,7 +89,7 @@ body {
     color: hsl(216, 12%, 8%);
 }
 
-.submitButtonSection {
+.submitButtonWrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,16 +134,38 @@ body {
     height: auto;
 }
 
+.selectedRatingWrapper {
+    background-color: hsl(222, 20%, 17%);
+    border: 1px solid hsl(216, 12%, 8%);
+    border-radius: 100px;
+
+    width: 15rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #selectedRatingThanks {
+    color:hsl(25, 97%, 53%);
     
 }
 
-.thankYouState h2 {
+.thankYouWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.thankYouState h2 {
+    color: white;
+
+    margin: 2rem 0 1rem 0;
 }
 
 .thankYouState p {
-
+    color: hsl(217, 12%, 63%);
 }
 
 /************************* DESKTOP SECTION ************************/
