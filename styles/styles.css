@@ -8,6 +8,9 @@
     display: none;
 }
 
+.thankYouState.hidden {
+    display: none;
+}
 
 html {
     height: 100%;
@@ -27,7 +30,6 @@ body {
 .page {
     background-color: hsl(213, 19%, 18%);
 
-    
     padding: 3rem;
     border-radius: 1.5rem;
     width: min(100%, 420px);
@@ -36,7 +38,6 @@ body {
 /******************************* RATING STATE STARTS ******************************/
 .ratingState {
     margin: 0 0rem;
-    display: none; /*REMOVE THIS WHEN DONE!*/
 }
 
 .star {
