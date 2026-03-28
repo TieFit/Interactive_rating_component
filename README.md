@@ -35,5 +35,3 @@ An interactive rating component made using HTML/CSS, and JavaScript
 
 - Website - [TieFit](https://github.com/TieFit)
 - Frontend Mentor - [TieFit](https://www.frontendmentor.io/profile/TieFit)
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
